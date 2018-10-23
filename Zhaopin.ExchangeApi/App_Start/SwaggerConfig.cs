@@ -1,11 +1,11 @@
 using System.Web.Http;
 using WebActivatorEx;
-using Zhaopin.ExchangeApi;
+using ExchangeApi;
 using Swashbuckle.Application;
 
 [assembly: PreApplicationStartMethod(typeof(SwaggerConfig), "Register")]
 
-namespace Zhaopin.ExchangeApi
+namespace ExchangeApi
 {
     public class SwaggerConfig
     {
@@ -32,7 +32,7 @@ namespace Zhaopin.ExchangeApi
                         // hold additional metadata for an API. Version and title are required but you can also provide
                         // additional fields by chaining methods off SingleApiVersion.
                         //
-                        c.SingleApiVersion("v1", "Zhaopin.ExchangeApi");
+                        c.SingleApiVersion("v1", "ExchangeApi");
 
                         // If you want the output Swagger docs to be indented properly, enable the "PrettyPrint" option.
                         //
@@ -255,7 +255,7 @@ namespace Zhaopin.ExchangeApi
         //Ìí¼ÓXML½âÎö
         private static string GetXmlCommentsPath()
         {
-            return $"{System.AppDomain.CurrentDomain.BaseDirectory}bin/Zhaopin.ExchangeApi.XML";
+            return $"{System.AppDomain.CurrentDomain.BaseDirectory}bin/ExchangeApi.XML";
         }
     }
 }

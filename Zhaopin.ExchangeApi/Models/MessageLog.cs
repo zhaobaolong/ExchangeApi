@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Zhaopin.ExchangeApi.Models
+namespace ExchangeApi.Models
 {
     /// <summary>
     /// 消息记录

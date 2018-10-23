@@ -7,7 +7,7 @@ using System.Web.Http;
 using System.Web.Routing;
 using log4net.Config;
 
-namespace Zhaopin.ExchangeApi
+namespace ExchangeApi
 {
     public class WebApiApplication : System.Web.HttpApplication
     {

@@ -14,9 +14,9 @@ using System.Web.Http.Results;
 using System.Web.Management;
 using log4net;
 using Newtonsoft.Json;
-using Zhaopin.ExchangeApi.Models;
+using ExchangeApi.Models;
 
-namespace Zhaopin.ExchangeApi.Controllers
+namespace ExchangeApi.Controllers
 {
     [RoutePrefix("Api/User")]
     public class UserController : ApiController
